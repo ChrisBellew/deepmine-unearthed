@@ -119,6 +119,6 @@
     #### 1B - A2C-1B 1st Stage Leach, 1B Clave - Ammonium Sulfate (02ALA000002.AMSUL.LIQ) - G/L - (Leach Data - Raw - Stable Period)
 
 
-# Visualistion Ideas
+# Visualisation Ideas
 - Visualise the cumulative leaching of Nickel as it progresses through each clave.
     - We have the cumulative leaching percentage of the original nickel input into the refinery.
