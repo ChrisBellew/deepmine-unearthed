@@ -12,7 +12,10 @@ https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1c
         - Stage 1 has two claves in parallel
         - Stage 2 has three claves in parallel
         - Stage 3 has one clave
+    - Each clave has 4 compartments
     - Ammonia and air is added at each clave to try and leach the Nickel
+        - Ammonia is being added in the first compartment of each clave
+        - Air is being added in each compartment of each clave
 - The measurement of the total mass and metal composition of the ore is measured at the start of the refinery, before it is divided into two ball mills.
 - The amount of ammonia and air being added is measured for each clave
 - The outputs of each clave are measured:
@@ -39,6 +42,7 @@ https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1c
 - Measurements about the thickener - I dont know anything about these
 
 # EVERYONE SHOULD READ THIS SECTION BELOW!
+
 ## Inputs into entire refinery
 
 - When ore is offloaded from the trucks it it goes into two ball mills in parallel to be ground down (Mill 1 and Mill 2).
@@ -69,25 +73,36 @@ https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1c
 - Since there are three two stage claves, let's divide the tonnes/hour of each metal by two, and thats how much tonnes/hour of each metal that is going into each first stage clave
 	#### 1A clave tonnes/hour Nickel input = Feed tonnes/hour Nickel / 2
 	#### 1A clave tonnes/hour Iron input = Feed tonnes/hour Iron / 2
-	####... etc
+	#### ... etc
+
+## Inputs into all claves
+- The volume of slurry being fed into each clave
+    #### LCH 2A FEED (FI02045B.PV) - L/MIN - (Leach Data - Raw - Stable Period)
 
 ## Additives being added to each clave
-- Ammonia and air are added to each clave
-    #### LEACH CLAVE 2A ANHYD. NH3 (FC02039B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
-    #### LEACH CLAVE 2B ANHYD. NH3 (FC02033B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
-    #### LEACH CLAVE 3A ANHYD. NH3 (FC02042B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
-    #### LEACH CLAVE 3B ANHYD. NH3 (FC02036B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
 
-Questions for mentors
-- There are four tags that appear to be the measurement of how much ammonia is being added
-    - LEACH CLAVE 2A ANHYD. NH3 	
-    - LEACH CLAVE 2B ANHYD. NH3 	
-    - LEACH CLAVE 3A ANHYD. NH3 
-    - LEACH CLAVE 3B ANHYD. NH3 	
-    - What about 1A, 1B, and 2C?
-- What do the measurements for FLOC and Thickener mean?
-- What does LCH 3B FEED mean? It's in L/MIN.
-- What does LCH 1B C1 mean? It's a % and DEGC.
-- Which tags show the temperature measurements after each clave?
-    - LCH 1B C1?, or
-    - A2C-1A C2 TEMPERATURE?
+- Ammonia and air are added to each clave
+    - Ammonia:
+        #### LEACH CLAVE 2A ANHYD. NH3 (FC02039B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+        #### LEACH CLAVE 2B ANHYD. NH3 (FC02033B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+        #### LEACH CLAVE 3A ANHYD. NH3 (FC02042B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+        #### LEACH CLAVE 3B ANHYD. NH3 (FC02036B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+        #### A2C - 1A Lch Clv Ammonia (FC02309.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+        #### A2C - 1B Lch Clv Ammonia (FC02312.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+    - Air by compartment:
+        #### LCH 1A C1 AIR (FC02094A.PV) - NM3/HR - (Leach Data - Raw - Stable Period)
+        #### LCH 1A C2 AIR (FC02095A.PV) - NM3/HR - (Leach Data - Raw - Stable Period)
+        #### ... etc
+    - Air by clave:
+        #### LCH 1B TOTAL AIR (FI02352.PV) - NM3/HR - (Leach Data - Raw - Stable Period)
+        #### ... etc
+
+## Temperature measurements
+- Temperature is being measured in each clave
+    - In each compartment
+        #### A2C-1A C1 TEMPERATURE (TI02260A.PV) - DegC - (Leach Data - Raw - Stable Period)
+        #### A2C-1A C2 TEMPERATURE (TI02261A.PV) - DegC - (Leach Data - Raw - Stable Period)
+        #### ... etc
+    - Each compartment has a cooling coil which water flows through to cool the reaction. The temperature is measured at the end of each of these coils
+        #### LCH 1A C1 (FC02094A.PV) - NM3/HR - (Leach Data - Raw - Stable Period)
+        #### ... etc
