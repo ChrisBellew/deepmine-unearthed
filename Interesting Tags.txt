@@ -1,5 +1,5 @@
 Ore input into mills
-No1 MILL FEED
+No1 MILL FEED, tonnes/hr
 No2 MILL FEED
 
 Measured Outputs after each clave
@@ -78,7 +78,7 @@ The measured outputs after the 3rd stage. The final outputs
 3A - B2C-3A Final Leach Discharge - Nickel Extraction
 
 Air being added to each compartment in each clave
-LCH 2B C4 AIR
+LCH 2B C4 AIR, NM3/HR
 LCH 2B C3 AIR
 LCH 2B C2 AIR
 LCH 2B C1 AIR
@@ -104,7 +104,7 @@ LCH 1A C2 AIR
 LCH 1A C3 AIR
 
 Air being added in total to each clave
-LCH 2A TOTAL AIR
+LCH 2A TOTAL AIR, NM3/HR
 LCH 3A TOTAL AIR
 LCH 2B TOTAL AIR
 LCH 3B TOTAL AIR
@@ -112,15 +112,15 @@ LEACH 1A TOTAL AIR
 LCH 1B TOTAL AIR
 
 Ammonia being added
-LEACH CLAVE 2B ANHYD. NH3 
+LEACH CLAVE 2B ANHYD. NH3, tonnes/hr
 LEACH CLAVE 3B ANHYD. NH3 
 LEACH CLAVE 2A ANHYD. NH3 
 LEACH CLAVE 3A ANHYD. NH3 
-A2C - 1A Lch Clv Ammonia
+A2C - 1A Lch Clv Ammonia, tonnes/hr
 A2C - 1B Lch Clv Ammonia
 
 Temperature of each compartment in each clave
-A2C-1A C1 TEMPERATURE
+A2C-1A C1 TEMPERATURE, DegC
 A2C-1A C2 TEMPERATURE
 A2C-1A C3 TEMPERATURE
 A2C-1A C4 TEMPERATURE
@@ -180,11 +180,11 @@ LCH 3B C4
 LCH 3B C4
 
 Flow rate of slurry into each clave
-LCH 3B FEED
+LCH 3B FEED, L/MIN
 LCH 2A FEED
 LCH 2B FEED
 S1 FD TO 1A
 S1 FD TO 1B/1A
 
 Flow rate of slurry into 3rd stage
-3RD STAGE LEACH FEED FLOW
+3RD STAGE LEACH FEED FLOW, L/MIN
