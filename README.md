@@ -4,6 +4,7 @@
 https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1cC24/edit?usp=sharing
 
 
+# EVERYONE SHOULD READ THIS SECTION BELOW!
 ## Inputs into entire refinery
 
 - When ore is offloaded from the trucks it it goes into two ball mills in parallel to be ground down (Mill 1 and Mill 2).
