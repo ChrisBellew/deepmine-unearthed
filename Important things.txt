@@ -1,0 +1,5 @@
+Ammonia adding
+Air adding
+Nickel Matte feed in
+Temperature out
+Nickel concentration % out
