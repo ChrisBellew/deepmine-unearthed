@@ -102,3 +102,23 @@
     - Each compartment has a cooling coil which water flows through to cool the reaction. The temperature is measured at the end of each of these coils
         #### LCH 1A C1 (FC02094A.PV) - NM3/HR - (Leach Data - Raw - Stable Period)
         #### ... etc
+
+## Leached metal measurements
+- The liquor (leached metal) and solids (what's left) are measured after each clave
+    - The leached metal:
+        #### 1A - A2C-1A 1st Stage Leach, 1A Clave - Cobalt (02ALA000001.CO.LIQ) - G/L - (Leach Data - Raw - Stable Period)
+            - (grams/litre of cobalt that has leached into the liquor)
+        #### 1A - A2C-1A 1st Stage Leach, 1A Clave - Cobalt (02ALA000001.CO.SOL) - % - (Leach Data - Raw - Stable Period)
+            - (% of remaining solids by mass that is cobalt)
+        #### 1A - A2C-1A 1st Stage Leach, 1A Clave - Cobalt Ext (02ALA000001.CO_EX.SOL) - % (Leach Data - Raw - Stable Period)
+            - (% of REFINERY INPUT nickel that has leached so far after this clave, and including all previous claves)
+        #### [Repeat for Copper, Nickel, and Iron (only % solids)]
+- The amount of ammonia in the system is measured after each clave
+    #### 1A - A2C-1A 1st Stage Leach, 1A Clave - NH3:TM Ratio (02ALA000001.NH3:TM) - MOLES - (Leach Data - Raw - Stable Period)
+- The amount of ammonium sulphate is measured after each clave
+    #### 1B - A2C-1B 1st Stage Leach, 1B Clave - Ammonium Sulfate (02ALA000002.AMSUL.LIQ) - G/L - (Leach Data - Raw - Stable Period)
+
+
+# Visualistion Ideas
+- Visualise the cumulative leaching of Nickel as it progresses through each clave.
+    - We have the cumulative leaching percentage of the original nickel input into the refinery.
