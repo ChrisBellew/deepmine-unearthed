@@ -29,7 +29,10 @@ https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1c
 	#### ... etc
 
 - So we know how much of each metal in tonnes/hour that is entering into each of the first stage claves.
-- Since there are three first stage claves, let's divide the tonnes/hour of each metal by 3, and thats how much tonnes/hour of each metal that is going into each first stage clave
+
+## Inputs into First Stage Claves
+
+- Since there are three first stage claves, let's divide the tonnes/hour of each metal by three, and thats how much tonnes/hour of each metal that is going into each first stage clave
 	#### 1A clave tonnes/hour Nickel input = Feed tonnes/hour Nickel / 3
 	#### 1A clave tonnes/hour Iron input = Feed tonnes/hour Iron / 3
 	####... etc
