@@ -1,9 +1,5 @@
 # Deepmine Unearthed 2018 Challenge
 
-### Tag Names Spreadsheet
-https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1cC24/edit?usp=sharing
-
-
 ### Refinery information
 - The ore is offloaded by trucks
 - There are 2 ball mills which grind the ore to a fine powder
