@@ -12,10 +12,10 @@ https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1c
         - Stage 1 has two claves in parallel
         - Stage 2 has three claves in parallel
         - Stage 3 has one clave
-    - Ammonia and air is added at each clave
-- The measurement of the total mass and metal composition of the ore is measured at the start of the refinery.
+    - Ammonia and air is added at each clave to try and leach the Nickel
+- The measurement of the total mass and metal composition of the ore is measured at the start of the refinery, before it is divided into two ball mills.
 - The amount of ammonia and air being added is measured for each clave
-- The outputs of each clave are measured.
+- The outputs of each clave are measured:
     - The amount of each metal that has leached into the LIQUOR    
     - The amount of each metal that has not leached, and is still in SOLID form.
     - The temperature of the outputs. (Not sure if this is the temperature of the LIQUOR or the SOLID?)
@@ -71,6 +71,12 @@ https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1c
 	#### 1A clave tonnes/hour Iron input = Feed tonnes/hour Iron / 2
 	####... etc
 
+## Additives being added to each clave
+- Ammonia and air are added to each clave
+    #### LEACH CLAVE 2A ANHYD. NH3 (FC02039B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+    #### LEACH CLAVE 2B ANHYD. NH3 (FC02033B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+    #### LEACH CLAVE 3A ANHYD. NH3 (FC02042B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
+    #### LEACH CLAVE 3B ANHYD. NH3 (FC02036B.PV) - TONNE/HR - (Leach Data - Raw - Stable Period)
 
 Questions for mentors
 - There are four tags that appear to be the measurement of how much ammonia is being added
@@ -79,3 +85,9 @@ Questions for mentors
     - LEACH CLAVE 3A ANHYD. NH3 
     - LEACH CLAVE 3B ANHYD. NH3 	
     - What about 1A, 1B, and 2C?
+- What do the measurements for FLOC and Thickener mean?
+- What does LCH 3B FEED mean? It's in L/MIN.
+- What does LCH 1B C1 mean? It's a % and DEGC.
+- Which tags show the temperature measurements after each clave?
+    - LCH 1B C1?, or
+    - A2C-1A C2 TEMPERATURE?
