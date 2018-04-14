@@ -1,0 +1,190 @@
+Ore input into mills
+No1 MILL FEED, tonnes/hr
+No2 MILL FEED
+
+Measured Outputs after each clave
+1A - A2C-1A 1st Stage Leach, 1A Clave - Ammonium Sulfate
+1A - A2C-1A 1st Stage Leach, 1A Clave - Cobalt
+1A - A2C-1A 1st Stage Leach, 1A Clave - Cobalt
+1A - A2C-1A 1st Stage Leach, 1A Clave - Cobalt Ext
+1A - A2C-1A 1st Stage Leach, 1A Clave - Copper
+1A - A2C-1A 1st Stage Leach, 1A Clave - Copper
+1A - A2C-1A 1st Stage Leach, 1A Clave - Copper Ext
+1A - A2C-1A 1st Stage Leach, 1A Clave - Iron
+1A - A2C-1A 1st Stage Leach, 1A Clave - NH3:TM Ratio
+1A - A2C-1A 1st Stage Leach, 1A Clave - Nickel
+1A - A2C-1A 1st Stage Leach, 1A Clave - Nickel
+1A - A2C-1A 1st Stage Leach, 1A Clave - Nickel Ext
+1B - A2C-1B 1st Stage Leach, 1B Clave - Ammonium Sulfate
+1B - A2C-1B 1st Stage Leach, 1B Clave - Cobalt
+1B - A2C-1B 1st Stage Leach, 1B Clave - Cobalt
+1B - A2C-1B 1st Stage Leach, 1B Clave - Cobalt Ext
+1B - A2C-1B 1st Stage Leach, 1B Clave - Copper
+1B - A2C-1B 1st Stage Leach, 1B Clave - Copper
+1B - A2C-1B 1st Stage Leach, 1B Clave - Copper Ext
+1B - A2C-1B 1st Stage Leach, 1B Clave - Iron
+1B - A2C-1B 1st Stage Leach, 1B Clave - NH3:TM Ratio
+1B - A2C-1B 1st Stage Leach, 1B Clave - Nickel
+1B - A2C-1B 1st Stage Leach, 1B Clave - Nickel
+1B - A2C-1B 1st Stage Leach, 1B Clave - Nickel Ext
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Ammonium Sulfate
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Cobalt
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Cobalt
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Cobalt Ext
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Copper
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Copper
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Copper Ext
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Iron
+2A - B2C-2A 2nd Stage Leach, 2A Clave - NH3:TM Ratio
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Nickel
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Nickel
+2A - B2C-2A 2nd Stage Leach, 2A Clave - Nickel Ext
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Ammonium Sulfate
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Cobalt
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Cobalt
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Cobalt Ext
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Copper
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Copper
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Copper Ext
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Iron
+2B - B2C-2B 2nd Stage Leach, 2B Clave - NH3:TM Ratio
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Nickel
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Nickel
+2B - B2C-2B 2nd Stage Leach, 2B Clave - Nickel Ext
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Ammonium Sulfate
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Cobalt
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Cobalt
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Cobalt Ext
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Copper
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Copper
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Copper Ext
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Iron
+3B - B2C-3B 2nd Stage Leach, 3B Clave - NH3:TM Ratio
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Nickel
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Nickel
+3B - B2C-3B 2nd Stage Leach, 3B Clave - Nickel Ext
+
+The measured outputs after the 3rd stage. The final outputs
+3A - B2C-3A Final Leach Discharge - Ammonium Sulfate
+3A - B2C-3A Final Leach Discharge - Cobalt
+3A - B2C-3A Final Leach Discharge - Cobalt
+3A - B2C-3A Final Leach Discharge - Cobalt Extraction
+3A - B2C-3A Final Leach Discharge - Copper
+3A - B2C-3A Final Leach Discharge - Copper
+3A - B2C-3A Final Leach Discharge - Copper Extraction
+3A - B2C-3A Final Leach Discharge - Iron
+3A - B2C-3A Final Leach Discharge - Nickel
+3A - B2C-3A Final Leach Discharge - Nickel
+3A - B2C-3A Final Leach Discharge - Nickel Extraction
+
+Air being added to each compartment in each clave
+LCH 2B C4 AIR, NM3/HR
+LCH 2B C3 AIR
+LCH 2B C2 AIR
+LCH 2B C1 AIR
+LCH 3B C4 AIR
+LCH 3B C3 AIR
+LCH 3B C2 AIR
+LCH 3B C1 AIR
+LCH 2A C4 AIR
+LCH 2A C3 AIR
+LCH 2A C2 AIR
+LCH 2A C1 AIR
+LCH 3A C4 AIR
+LCH 3A C3 AIR
+LCH 3A C2 AIR
+LCH 3A C1 AIR
+LCH 1B C1 AIR
+LCH 1B C2 AIR
+LCH 1B C3 AIR
+LCH 1B C4 AIR
+LCH 1A C4 AIR
+LCH 1A C1 AIR
+LCH 1A C2 AIR
+LCH 1A C3 AIR
+
+Air being added in total to each clave
+LCH 2A TOTAL AIR, NM3/HR
+LCH 3A TOTAL AIR
+LCH 2B TOTAL AIR
+LCH 3B TOTAL AIR
+LEACH 1A TOTAL AIR
+LCH 1B TOTAL AIR
+
+Ammonia being added
+LEACH CLAVE 2B ANHYD. NH3, tonnes/hr
+LEACH CLAVE 3B ANHYD. NH3 
+LEACH CLAVE 2A ANHYD. NH3 
+LEACH CLAVE 3A ANHYD. NH3 
+A2C - 1A Lch Clv Ammonia, tonnes/hr
+A2C - 1B Lch Clv Ammonia
+
+Temperature of each compartment in each clave
+A2C-1A C1 TEMPERATURE, DegC
+A2C-1A C2 TEMPERATURE
+A2C-1A C3 TEMPERATURE
+A2C-1A C4 TEMPERATURE
+A2C-1B C1 TEMPERATURE
+A2C-1B C2 TEMPERATURE
+A2C-1B C3 TEMPERATURE
+A2C-1B C4 TEMPERATURE
+
+Temperature of cooling water coils, for each clave, for each compartment, both temperature and % open of valve
+LCH 1A C1 degc of the water leaving that cooling coil
+LCH 1A C1 % open of the valve that is adding cooling water
+LCH 1A C2
+LCH 1A C2
+LCH 1A C3
+LCH 1A C3
+LCH 1A C4
+LCH 1A C4
+LCH 1B C1
+LCH 1B C1
+LCH 1B C2
+LCH 1B C2
+LCH 1B C3
+LCH 1B C3
+LCH 1B C4
+LCH 1B C4
+LCH 2A C1
+LCH 2A C1
+LCH 2A C2
+LCH 2A C2
+LCH 2A C3
+LCH 2A C3
+LCH 2A C4
+LCH 2A C4
+LCH 3A C1
+LCH 3A C1
+LCH 3A C2
+LCH 3A C2
+LCH 3A C3
+LCH 3A C3
+LCH 3A C4
+LCH 3A C4
+LCH 2B C1
+LCH 2B C1
+LCH 2B C2
+LCH 2B C2
+LCH 2B C3
+LCH 2B C3
+LCH 2B C4
+LCH 2B C4
+LCH 3B C1
+LCH 3B C1
+LCH 3B C2
+LCH 3B C2
+LCH 3B C3
+LCH 3B C3
+LCH 3B C4
+LCH 3B C4
+
+Flow rate of slurry into each clave
+LCH 3B FEED, L/MIN
+LCH 2A FEED
+LCH 2B FEED
+S1 FD TO 1A
+S1 FD TO 1B/1A
+
+Flow rate of slurry into 3rd stage
+3RD STAGE LEACH FEED FLOW, L/MIN
