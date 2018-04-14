@@ -4,6 +4,23 @@
 https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1cC24/edit?usp=sharing
 
 
+### Refinery information
+- The ore is offloaded by trucks
+- There are 2 ball mills which grind the ore to a fine powder
+- There are 6 claves which use chemical reactions to try and leach out the Nickel. They end up leaching Nickel, but also the biproducts Cobalt and Copper. Copper is interesting because it can affect the efficiency of the downstream copper boil. Cobalt is not interesting.
+    - The claves are arranged into 3 stages.
+        - Stage 1 has two claves in parallel
+        - Stage 2 has three claves in parallel
+        - Stage 3 has one clave
+    - Ammonia and air is added at each clave
+- The measurement of the total mass and metal composition of the ore is measured at the start of the refinery.
+- The amount of ammonia and air being added is measured for each clave
+- The outputs of each clave are measured.
+    - The amount of each metal that has leached into the LIQUOR    
+    - The amount of each metal that has not leached, and is still in SOLID form.
+    - The temperature of the outputs. (Not sure if this is the temperature of the LIQUOR or the SOLID?)
+    - 
+
 ### Data Spreadsheets Explanation
 #### Leach Data - Raw - Stable Period: This  is a spreadsheet of SCADA data that is measured every 30 seconds. This contains:
 - Measurements of the outputs after each clave. The outputs are:
@@ -18,7 +35,8 @@ https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1c
         - Measured as the % mass of all the solids found after THIS CLAVE, is Nickel.
             - (For example: 02ALA000001.NI.SOL for clave 1A)
             - (For example: 02ALA000002.NI.SOL for clave 1B)
-
+    [The above Nickel measurements are repeated for all ]
+- Measurements about the thickener - I dont know anything about these
 
 # EVERYONE SHOULD READ THIS SECTION BELOW!
 ## Inputs into entire refinery
@@ -52,3 +70,12 @@ https://docs.google.com/spreadsheets/d/1VHEmBi-e7DS0N7x_oVzxAAmPAF1_llo8CB_pIk1c
 	#### 1A clave tonnes/hour Nickel input = Feed tonnes/hour Nickel / 2
 	#### 1A clave tonnes/hour Iron input = Feed tonnes/hour Iron / 2
 	####... etc
+
+
+Questions for mentors
+- There are four tags that appear to be the measurement of how much ammonia is being added
+    - LEACH CLAVE 2A ANHYD. NH3 	
+    - LEACH CLAVE 2B ANHYD. NH3 	
+    - LEACH CLAVE 3A ANHYD. NH3 
+    - LEACH CLAVE 3B ANHYD. NH3 	
+    - What about 1A, 1B, and 2C?
